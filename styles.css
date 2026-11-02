@@ -1,0 +1,118 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f8;
+  color: #222222;
+  line-height: 1.6;
+  padding: 20px 10px;
+}
+
+/* User Story 1 & Test 1: #main element wrapper */
+#main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* User Story 2 & Test 3, 4: #title element */
+#title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-top: 5px;
+}
+
+/* User Story 3 & Test 5: #img-div figure element */
+#img-div {
+  background-color: #f9fafb;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 30px;
+}
+
+/* User Story 4, 8, 9 & Tests 6, 7, 16, 17, 18, 19: Responsive Centered Image */
+#image {
+  display: block;          /* Test 16 */
+  max-width: 100%;        /* Test 17 */
+  height: auto;           /* Test 18 */
+  margin: 0 auto;         /* Test 19 (Centering) */
+  border-radius: 4px;
+}
+
+/* User Story 5 & Tests 8, 9, 10: #img-caption */
+#img-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-top: 12px;
+}
+
+/* User Story 6 & Tests 11, 12: #tribute-info */
+#tribute-info {
+  margin-bottom: 30px;
+}
+
+#tribute-info h2 {
+  font-size: 1.4rem;
+  color: #111827;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#tribute-info ul {
+  max-width: 650px;
+  margin: 0 auto 25px auto;
+  padding-left: 20px;
+}
+
+#tribute-info li {
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  color: #374151;
+  border-left: 4px solid #2563eb;
+  padding-left: 15px;
+  margin: 20px auto;
+  max-width: 550px;
+}
+
+/* User Story 7 & Tests 13, 14, 15: #tribute-link */
+.footer {
+  text-align: center;
+  font-weight: 600;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+}
+
+#tribute-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
